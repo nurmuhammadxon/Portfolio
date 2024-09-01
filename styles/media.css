@@ -101,38 +101,6 @@
     max-width: 720px;
     margin: 0 auto;
     padding-top: 80px;
-    margin-bottom: 600px;
-  }
-
-  .portfoio-iteam-1 .portfolio-iteam__image,
-  .portfoio-iteam-2 .portfolio-iteam__image,
-  .portfoio-iteam-3 .portfolio-iteam__image,
-  .portfoio-iteam-4 .portfolio-iteam__image,
-  .portfoio-iteam-5 .portfolio-iteam__image,
-  .portfoio-iteam-6 .portfolio-iteam__image {
-    height: auto;
-  }
-
-  .portfoio-iteam-3 {
-    width: 50%;
-    top: 210px;
-    right: 0;
-  }
-
-  .portfoio-iteam-4 {
-    width: 50%;
-    top: 560px;
-    left: 0;
-  }
-
-  .portfoio-iteam-5 {
-    top: 635px;
-  }
-
-  .portfoio-iteam-6 {
-    position: absolute;
-    top: 970px;
-    left: 0;
   }
 
   .portfolio-iteam__image img {
