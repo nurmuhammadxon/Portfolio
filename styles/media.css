@@ -4,8 +4,28 @@
     width: 92%;
   }
 
+  .main__nav {
+    width: 50%;
+    height: 100%;
+  }
+
+  .menu .bx-menu {
+    display: block;
+    font-size: 36px;
+    position: absolute;
+    right: 10%;
+    top: -20px;
+  }
+
+  #menu:checked ~ .list {
+    left: 50px;
+  }
+
   .main__nav .list {
-    display: none;
+    position: absolute;
+    top: -10px;
+    left: -100%;
+    transition: all 0.4s ease;
   }
 
   .main-section__image {
@@ -31,7 +51,7 @@
     padding: 80px 0;
   }
 
-  .about__me>div {
+  .about__me > div {
     width: 100%;
     padding: 0 20px;
     text-align: center;
@@ -68,7 +88,7 @@
     gap: 10px;
   }
 
-  .clients-iteams>div {
+  .clients-iteams > div {
     width: 100%;
   }
 
@@ -150,9 +170,8 @@
   }
 }
 
-
 /* Max width-767px */
-@media screen and (max-width:769px) {
+@media screen and (max-width: 769px) {
   .container {
     width: 92%;
   }
@@ -163,7 +182,7 @@
     min-height: 550px;
   }
 
-  .main-section>div {
+  .main-section > div {
     width: 100%;
     text-align: center;
   }
