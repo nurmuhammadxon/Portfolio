@@ -4,8 +4,12 @@
     width: 92%;
   }
 
+  .main-header {
+    width: 990px;;
+  }
+
   .main__nav {
-    width: 50%;
+    width: 40%;
     height: 100%;
   }
 
@@ -13,7 +17,7 @@
     display: block;
     font-size: 36px;
     position: absolute;
-    right: 10%;
+    right: 0;
     top: -20px;
   }
 
@@ -24,12 +28,15 @@
   .main__nav .list {
     position: absolute;
     top: -10px;
-    left: -100%;
+    left: -200%;
     transition: all 0.4s ease;
   }
 
   .main-section__image {
     display: none;
+  }
+  .main-section__welcome {
+    font-size: 14px;
   }
 
   /*  statistics section*/

@@ -273,12 +273,12 @@
 .portfolio-iteams {
   margin-top: 50px;
   display: grid;
-  /* gap: 50px; */
   grid-template-columns: repeat(4, 23%);
   grid-template-rows: repeat(2, 1fr);
 }
 
 .portfolio-iteam {
+  position: relative;
   padding: 10px;
   cursor: pointer;
 }
